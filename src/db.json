@@ -1,0 +1,40 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "author": "Surajit",
+      "text": "React is simple"
+    },
+    {
+      "id": 2,
+      "author": "Ram",
+      "text": "React is easy"
+    },
+    {
+      "id": 3,
+      "author": "Raja",
+      "text": "React is best"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "prdname": "Moto G5",
+      "qty": "2",
+      "prc": "13000"
+    },
+    {
+      "id": 2,
+      "prdname": "Racold Geyser",
+      "qty": "3",
+      "prc": "6000"
+    },
+    {
+      "id": 3,
+      "prdname": "Dell Inspiron",
+      "qty": "4",
+      "prc": "50000"
+    }
+    
+  ]
+}

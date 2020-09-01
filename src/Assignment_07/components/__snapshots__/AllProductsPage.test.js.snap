@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AllProductsPage Snapshot renders correctly 1`] = `
+<AllProductsPage>
+  <h2>
+    Products List
+  </h2>
+  <ProductsList
+    products={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Moto G5",
+          "price": "Rs. 13000",
+          "quantity": "2",
+        },
+        Object {
+          "id": 2,
+          "name": "Racold Geyser",
+          "price": "Rs. 6000",
+          "quantity": "3",
+        },
+        Object {
+          "id": 3,
+          "name": "Dell Inspiron",
+          "price": "Rs. 50000",
+          "quantity": "4",
+        },
+      ]
+    }
+  >
+    <table>
+      <thead>
+        <tr>
+          <th>
+            ID
+          </th>
+          <th>
+            Product Name
+          </th>
+          <th>
+            Quantity
+          </th>
+          <th>
+            Price
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <Product
+          id={1}
+          key="1"
+          name="Moto G5"
+          quantity="2"
+        >
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              Moto G5
+            </td>
+            <td>
+              2
+            </td>
+            <td>
+              Rs. 13000
+            </td>
+          </tr>
+        </Product>
+        <Product
+          id={2}
+          key="2"
+          name="Racold Geyser"
+          quantity="3"
+        >
+          <tr>
+            <td>
+              2
+            </td>
+            <td>
+              Racold Geyser
+            </td>
+            <td>
+              3
+            </td>
+            <td>
+              Rs. 6000
+            </td>
+          </tr>
+        </Product>
+        <Product
+          id={3}
+          key="3"
+          name="Dell Inspiron"
+          quantity="4"
+        >
+          <tr>
+            <td>
+              3
+            </td>
+            <td>
+              Dell Inspiron
+            </td>
+            <td>
+              4
+            </td>
+            <td>
+              Rs. 50000
+            </td>
+          </tr>
+        </Product>
+      </tbody>
+    </table>
+  </ProductsList>
+</AllProductsPage>
+`;
